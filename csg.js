@@ -8,9 +8,11 @@ QuantumultX:
 hostname = 133-slm-sdk-online.tytuyoo.com
 
 ***************************
-var obj = JSON.parse($response.body || '{}');
-if (obj.result["360.vip"] == 0) {
-	obj.result["360.vip"] = 1;
-}
+var body = $response.body;
+var obj = JSON.parse(body);
+//if (obj.result["360.vip"] == 0) {
+//	obj.result["360.vip"] = 1;
+//}
 
-$done({ body: JSON.stringify(obj) });
+//$done({ body: JSON.stringify(obj) });
+$done({body})
