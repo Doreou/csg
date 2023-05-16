@@ -2,7 +2,7 @@
 QuantumultX:
 
 [rewrite_local]
-^https?://133-slm-sdk-online.tytuyoo.com/open/v6/user/LoginBySnsIdNoVerify url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js
+^https?://133-slm-sdk-online.tytuyoo.com/open/v6/user/LoginBySnsIdNoVerify url script-response-body https://github.com/Doreou/csg/blob/main/csg.js
 
 [mitm]
 hostname = 133-slm-sdk-online.tytuyoo.com
