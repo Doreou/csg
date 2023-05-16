@@ -1,4 +1,4 @@
-***************************
+/***************************
 QuantumultX:
 
 [rewrite_local]
@@ -7,7 +7,7 @@ QuantumultX:
 [mitm]
 hostname = 133-slm-sdk-online.tytuyoo.com
 
-***************************
+***************************/
 var body = $response.body
 var obj = JSON.parse(body);
 console.info(body);
