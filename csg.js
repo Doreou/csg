@@ -12,3 +12,5 @@ var obj = JSON.parse($response.body || '{}');
 if (obj.result["360.vip"] == 0) {
 	obj.result["360.vip"] = 1;
 }
+
+$done({body});
